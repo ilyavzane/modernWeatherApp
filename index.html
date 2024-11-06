@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <video class="container__left-section-video" src="assets/videos/854693-hd_1920_1080_30fps.mp4" autoplay muted
+            loop>
+        </video>
+
+        <div class="container__left-section">
+            <img src="assets/icons/logo.svg" alt="" class="logo">
+
+            <div class="left-section--main">
+                <div class="main-grad">16°</div>
+                <div class="main-box">
+                    <div class="main-box-city">London</div>
+                    <div class="main-box-time">06:09 - Monday, 9 Sep ‘23</div>
+                </div>
+                <img class="weather-state-img" src="assets/icons/snowy.svg" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="right-section">
+
+            <form id="search-form" action="">
+                <input type="text" class="right-section__input" placeholder="Search Location...">
+                <button class="right-section-submit-btn" type="submit">
+                    <img class="search-img" src="assets/icons/fa_search.svg" alt="">
+                </button>
+            </form>
+
+            <h4 class="weather-state-descrip" style="font-weight: 300;">thunderstorm with light drizzle</h4>
+
+            <div class="temp-data">
+
+                <div class="weather-text">Temp Max</div>
+                <div class="temp-max-grad">19°</div>
+                <img class="temp-max-img" src="assets/icons/maxGrad.svg" alt="">
+
+                <div class="weather-text">Temp Min</div>
+                <div class="temp-min-grad">5°</div>
+                <img class="temp-max-img" src="assets/icons/minGrad.svg" alt="">
+
+                <div class="weather-text">Humidity</div>
+                <div class="humidity">86%</div>
+                <img class="temp-max-img" src="assets/icons/humidity.svg" alt="">
+
+                <div class="weather-text">Cloudy</div>
+                <div class="cloudy">55%</div>
+                <img class="temp-max-img" src="assets/icons/cloudy.svg" alt="">
+
+                <div class="weather-text">Wind</div>
+                <div class="wind">3km/h</div>
+                <img class="temp-max-img" src="assets/icons/wind.svg" alt="">
+
+            </div>
+
+            <div class="right-block"></div>
+
+            <h4 class="weather-description-text" style="font-weight: 300;">Today's weather forecast</h4>
+
+            <div class="weather-forecast">
+
+                <img class="temp-forecast-grad-img" src="assets/icons/cloudy.svg" alt="">
+                <div class="waether-forecast-data">
+                    <div class="forecast-time">9:00</div>
+                    <div class="forecast-description">Snow</div>
+                </div>
+
+                <div class="temp-forecast-grad">19°</div>
+
+                <img class="temp-forecast-grad-img" src="assets/icons/cloudy.svg" alt="">
+                <div class="waether-forecast-data">
+                    <div class="forecast-time">9:00</div>
+                    <div class="forecast-description">Snow</div>
+                </div>
+
+                <div class="temp-forecast-grad">19°</div>
+                <img class="temp-forecast-grad-img" src="assets/icons/cloudy.svg" alt="">
+                <div class="waether-forecast-data">
+                    <div class="forecast-time">9:00</div>
+                    <div class="forecast-description">Snow</div>
+                </div>
+
+                <div class="temp-forecast-grad">19°</div>
+                <img class="temp-forecast-grad-img" src="assets/icons/cloudy.svg" alt="">
+                <div class="waether-forecast-data">
+                    <div class="forecast-time">9:00</div>
+                    <div class="forecast-description">Snow</div>
+                </div>
+
+                <div class="temp-forecast-grad">19°</div>
+                <img class="temp-forecast-grad-img" src="assets/icons/cloudy.svg" alt="">
+                <div class="waether-forecast-data">
+                    <div class="forecast-time">9:00</div>
+                    <div class="forecast-description">Snow</div>
+                </div>
+
+                <div class="temp-forecast-grad">19°</div>
+
+
+
+
+            </div>
+        </div>
+
+        <script type="module" src="./js/api.js"></script>
+        <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

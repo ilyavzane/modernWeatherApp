@@ -1,0 +1,14 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "pet project \"weather app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Shcherbak",
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^3.5.0"
+  }
+}
