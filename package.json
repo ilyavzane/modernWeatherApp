@@ -1,12 +1,20 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "pet project \"weather app\"",
+=======
+  "description": "a modern designed app for displaying current weather in a needed city",
+>>>>>>> d05e422bf3e3e085ecdffca438e746ee7ca9bb6f
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "Ilya Shcherbak",
+=======
+  "author": "",
+>>>>>>> d05e422bf3e3e085ecdffca438e746ee7ca9bb6f
   "license": "ISC",
   "dependencies": {
     "luxon": "^3.5.0"
